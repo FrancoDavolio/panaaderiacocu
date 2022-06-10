@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susbcripciones</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="bg-primary">
+        <h2 class="display-5 text-center py-3 mb-0">Rolling Prime</h2>
+    </header>
+    <main>
+        <section class="row bg-dark text-light">
+            <article class="col-sm-12 col-md-6 col-lg-6 text-center py-5">
+                <h2 class="pb-3">Ve Películas y series</h2>
+                <p class="fs-5">Disfruta de las películas y series populares por $200/mes <br> y podes cancelar cuando
+                    quieras.</p>
+                <div class="d-grid gap-2 col-6 col-lg-6 mx-auto pt-4">
+                    <button class="btn btn-primary fs-4" type="button"><a href="#" class="text-decoration-none text-light">Susbcribirse</a></button>
+                    <p class="fs-3">o</p>
+                    <button class="btn btn-primary fs-4" type="button" data-bs-toggle="modal"
+                        data-bs-target="#modalSusbcripcíon">Comienza tu prueba gratis de una semana</button>
+                </div>
+            </article>
+            <article class="col-sm-12 col-md-6 col-lg-6">
+                <img src="../img/Las-mejores-sagas-de-peliculas.jpg" alt="las mejores sagas del cine" width="100%" height="100%">
+            </article>
+        </section>
+        <section>
+            <article>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </article>
+        </section>
+        <!--Modal Subcripcíon-->
+        <div class="modal" id="modalSusbcripcíon">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary">
+                        <h4 class="modal-title">Susbcribirse</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body fondo">
+                        <form >
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" maxlength="50" minlength="2" placeholder="ej:Franco" required/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="apellido" class="form-label">Apellido</label>
+                                <input type="text" class="form-control" maxlength="50" minlength="2" placeholder="ej:Davolio" required/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" maxlength="50" minlength="12" placeholder="ej:franco12@gmail.com" required/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="contraseña" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" maxlength="8" minlength="5" placeholder="ej:hola123" required/>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Crear Cuenta</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-primary">
+        <h2 class="display-5 text-center py-3 mb-0 text-light">Rolling Prime</h2>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
