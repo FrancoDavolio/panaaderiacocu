@@ -1,0 +1,35 @@
+.modal-open .container-fluid,
+.modal-open .container {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.container-fluid {
+    background-size: cover;
+    display: block;
+    left: 0;
+    height: 100%;
+}
+
+h1,
+h2,
+h4,
+h5,
+ul {
+    font-family: cursive;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.ulLi1 {
+    padding-left: 11rem;
+}
+
+.ulLi2 {
+    padding-left: 11rem;
+}

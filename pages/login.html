@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="peliculas, Rolling code, Prime, Series" />
+    <meta name="authuor" content="Manuel Ibanez,Luciano casacci,franco davolio,Nicolas fara,Santiago figueroa" />
+    <meta name="descripcions" content="Pagina para proyecto de video,peliculas,series " />
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="bg-primary">
+        <h2 class="display-5 py-3 mb-0 text-center">Rolling Prime</h2>
+        <nav>
+            <a href="subcripcion.html" class="text-light m-4">Susbcribirse</a>
+        </nav>
+    </header>
+    <main>
+        <div class="text-center py-4">
+            <button class="btn btn-primary fs-4 text-bg-primary rounded-pill" type="button" data-bs-toggle="modal"
+                data-bs-target="#modalLogin">Login</button>
+        </div>
+        <!--Modal Login-->
+        <div class="modal" id="modalLogin">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary">
+                        <h4 class="modal-title">Login</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" maxlength="50" minlength="12"
+                                    placeholder="ej:franco12@gmail.com" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="contraseña" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" maxlength="8" minlength="5"
+                                    placeholder="ej:hola123" required />
+                            </div>
+                            <button type="submit" class="btn btn-primary"><a href="error.html"
+                                    class="text-decoration-none text-light">Crear Cuenta</a></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark">
+        <h2 class="display-5 text-center py-3 mb-0 text-light">Rolling Prime</h2>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
